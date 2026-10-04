@@ -1,0 +1,85 @@
+
+@media (max-width: 640px) {
+    .navbar .container {
+        width: 100% !important;
+    }
+
+    .navv button .contact-word {
+        display: none;
+    }
+
+    .navbar .logo p {
+        display: none;
+    }
+
+    .navbar .nav-item {
+        display: none;
+    }
+
+    .navbar .collapse button,
+    .navv button {
+        padding: 8px 12px !important;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-modal {
+        width: 90% !important;
+        margin: auto;
+        position: fixed;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    .contact-modal {
+        width: 75% !important;
+        margin: auto;
+        position: fixed;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .contact-modal {
+        width: 70% !important;
+        margin: auto;
+        position: fixed;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .contact-modal {
+        width: 60% !important;
+        margin: auto;
+        position: fixed;
+        top: 13.5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width:1280px) {
+    .contact-modal {
+        width: 50% !important;
+        margin: auto;
+        position: fixed;
+        top: 14%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
